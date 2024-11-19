@@ -10,9 +10,7 @@ console.log('App creatad')
     <div className="app">
       <button className="open-modal-btn" onClick={() => setOpen(true)}>✨ Open modal</button>
         <Modal open={open} setOpen={setOpen} >
-           <img src="https://media2.giphy.com/media/xT0xeJpnrWC4XWblEk/giphy.gif" />
-           <h3>This is modal</h3>
-           <button>Start</button>
+           <img src="https://media2.giphy.com/media/xT0xeJpnrWC4XWblEk/giphy.gif" alt="explosion on mind"/>
         </Modal>  
     </div>
   );
